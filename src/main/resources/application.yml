@@ -1,0 +1,14 @@
+server:
+  port: 9991
+
+logging:
+  level:
+    root: info
+    wind.yang: debug
+
+kafka:
+  bootstrapAddress: localhost:9092
+
+message:
+  topic:
+    name: mytopic
